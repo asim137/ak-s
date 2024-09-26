@@ -1,0 +1,30 @@
+# Bir öğrencinin notuna göre harf notunu belirleyen programın akış diyagramı:
+Başla
+   ↓
+Notu Al
+   ↓
+Not 90-100 mü?
+  /   \
+ Evet  Hayır
+  ↓      ↓
+   A   Not 80-89 mu?
+  ↓
+Bitir      /   \
+      Evet  Hayır
+        ↓     ↓
+        B   Not 70-79 mu?
+       ↓
+     bitir      /   \
+            Evet  Hayır
+              ↓     ↓
+              C   Not 60-69 mu?
+                    /   \
+              ↓
+           Bitir    Evet  Hayır
+                    ↓     ↓
+                    D     F
+                    ↓
+                 Bitir   ↓     
+                       bitir
+                       
+                     
