@@ -1,0 +1,18 @@
+# Bir sayının asal olup olmadığını kontrol eden akış diyagramı:
+Başla
+   ↓
+Sayıyı Al
+   ↓
+Sayı 2'den Küçük mü?
+  /   \
+ Evet  Hayır
+  ↓      ↓
+Asal Değil   Bölen Bul? 
+    ↓          /   \
+ bitir      Evet  Hayır
+           ↓       ↓
+        Asal Değil   Asal
+           ↓       ↓
+        Yazdır   Yazdır
+           ↓       ↓
+          Bitir   bitir
