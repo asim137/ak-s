@@ -1,0 +1,14 @@
+#Bir sayının tek mi çift mi olduğunu kontrol eden akış diyagramı:
+Başla
+   ↓
+Sayıyı Al
+   ↓
+Sayı % 2 == 0 mı?
+  /   \
+ Evet  Hayır
+  ↓       ↓
+Çift     Tek
+  ↓       ↓
+Yazdır  Yazdır
+  ↓       ↓
+  Bitir
